@@ -35,3 +35,20 @@
     @apply border-black;
   }
 }
+
+
+.banner{
+  background-image: url('/src/images/bannerbackground.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.link{
+  @apply font-medium text-xl underline decoration-[3.2px] underline-offset-2 decoration-transparent;
+}
+
+.link-active{
+  @apply font-medium text-xl underline decoration-[3.2px] underline-offset-2 decoration-rose-500 text-rose-500
+}
